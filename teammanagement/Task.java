@@ -51,4 +51,9 @@ public class Task {
         }
         return completedDate.getTime() - assignedDate.getTime();
     }
+
+    @Override
+    public String toString() {
+        return description;
+    }
 }
