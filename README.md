@@ -1,4 +1,5 @@
 # Projekt-AEH-2024-KacperO
+# System zarządzania zadaniami w zespole
 # Team Management App
 
 Aplikacja do zarządzania zespołem i zadaniami, zbudowana w JavaFX.
