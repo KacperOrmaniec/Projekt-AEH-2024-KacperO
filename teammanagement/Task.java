@@ -15,13 +15,6 @@ public class Task {
         this.assignedDate = new Date();
     }
 
-    public Task(String description, Member assignedTo) {
-        this.description = description;
-        this.assignedTo = assignedTo;
-        this.status = TaskStatus.NEW; // Ustawienie domyślnego statusu na NEW
-        this.assignedDate = new Date();
-    }
-
     public void assignTo(Member member) {
         this.assignedTo = member;
     }
