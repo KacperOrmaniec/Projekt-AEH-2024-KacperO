@@ -38,4 +38,8 @@ Aplikacja Team Management App umożliwia zarządzanie zespołem, przydzielanie z
 ## Uruchamianie
 
 1. Upewnij się, że masz zainstalowane środowisko Java Development Kit (JDK) w wersji 8 lub nowszej.
-2. Skompiluj kod źródłowy aplikacji za pomocą polecenia
+2. Skompiluj kod źródłowy aplikacji za pomocą poleceń w podanej kolejnośći, zamieniająć /path/to/javafx-sdk/lib na ścieżkę do pliku lib.
+
+javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics -d output_directory Main.java ./teammanagement/TeamManagementGUI.java
+
+java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics -cp output_directory Main 
